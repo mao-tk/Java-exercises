@@ -1,9 +1,7 @@
 public class Main {
-  public static void main (String[] args) {
-    int temp = 15;
-    do {
-      temp--;
-      System.out.println("温度を1度下げました");
-    } while(temp > 25);
+  public static void main(String[] args) {
+    for (int i = 0; i < 10 ; i++) {
+      System.out.println("こんにちわ");
+    }
   }
 }
