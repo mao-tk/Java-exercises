@@ -1,16 +1,11 @@
-public class Main { 
-  public static void main(String[] args) {
-    int isHungry = 1;
-    String food = "おにぎり";
-    System.out.println("こんにちは");
-      if (isHungry== 0) {
-        System.out.println("お腹がいっぱいです");
-      } else {
-        System.out.println("はらぺこです");
-      }
-      if (isHungry == 1) {
-        System.out.println(food + "をいただきます");
-      }
-      System.out.println("ごちそうさまでした");
+public class Main {
+  public static void main(String[] args){
+    boolean tenki = false;
+    if (tenki == true) {
+      System.out.println("洗濯をします");
+      System.out.println("散歩にいきます");
+    } else {
+      System.out.println("DVDを見ます");
     }
+  }
 }
